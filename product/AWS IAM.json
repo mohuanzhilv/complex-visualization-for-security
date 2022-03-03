@@ -1,0 +1,6 @@
+{
+    "service_provider": "AWS",
+    "Service_type": "身份访问控制",
+    "use case": "管理对服务和资源的访问",
+    "service name": "AWS Identity & Access Management"
+}

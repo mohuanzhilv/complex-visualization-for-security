@@ -1,0 +1,6 @@
+{
+    "service_provider": "AWS",
+    "Service_type": "数据保护类",
+    "use case": "大规模发现和保护敏感数据",
+    "service name": "AWS Macie"
+}

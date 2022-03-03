@@ -1,0 +1,6 @@
+{
+    "service_provider": "AWS",
+    "Service_type": "身份访问控制",
+    "use case": "集中控制和管理AWS账户",
+    "service name": "AWS Organizations"
+}

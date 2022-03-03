@@ -1,0 +1,6 @@
+{
+    "service_provider": "AWS",
+    "Service_type": "检测控制类",
+    "use case": "托管的威胁检测服务",
+    "service name": "AWS GuardDuty"
+}

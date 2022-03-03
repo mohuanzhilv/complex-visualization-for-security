@@ -1,0 +1,6 @@
+{
+    "service_provider": "AWS",
+    "Service_type": "数据保护类",
+    "use case": "实现监管合规性的，基于硬件的密钥存储",
+    "service name": "AWS CloudHSM"
+}

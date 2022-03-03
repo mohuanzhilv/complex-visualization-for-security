@@ -1,0 +1,6 @@
+{
+    "service_provider": "AWS",
+    "Service_type": "合规类",
+    "use case": "免费的自助门户，允许按需访问AWS合规性报告",
+    "service name": "AWS Artifact"
+}

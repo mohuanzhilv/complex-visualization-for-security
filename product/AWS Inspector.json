@@ -1,0 +1,6 @@
+{
+    "service_provider": "AWS",
+    "Service_type": "检测控制类",
+    "use case": "分析应用程序的安全性",
+    "service name": "AWS Inspector"
+}

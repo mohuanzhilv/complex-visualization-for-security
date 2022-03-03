@@ -1,0 +1,6 @@
+{
+    "service_provider": "AWS",
+    "Service_type": "基础设施保护类",
+    "use case": "集中管理防火墙规则",
+    "service name": "AWS Firewall Manager"
+}

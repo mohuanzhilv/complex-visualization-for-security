@@ -1,0 +1,6 @@
+{
+    "service_provider": "AWS",
+    "Service_type": "身份访问控制",
+    "use case": "应用程序身份管理",
+    "service name": "AWS Cognito"
+}

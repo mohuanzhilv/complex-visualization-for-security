@@ -1,0 +1,6 @@
+{
+    "service_provider": "AWS",
+    "Service_type": "身份访问控制",
+    "use case": "托管的Microsoft Active Directory",
+    "service name": "AWS Directory Service"
+}

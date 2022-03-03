@@ -1,0 +1,6 @@
+{
+    "service_provider": "AWS",
+    "Service_type": "检测控制类",
+    "use case": "跟踪用户活动和API使用的情况",
+    "service name": "AWS CloudTrail"
+}

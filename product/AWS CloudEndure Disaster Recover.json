@@ -1,0 +1,6 @@
+{
+    "service_provider": "AWS",
+    "Service_type": "事故响应类",
+    "use case": "快速、自动且经济实惠的灾难恢复",
+    "service name": "AWS CloudEndure Disaster Recover"
+}

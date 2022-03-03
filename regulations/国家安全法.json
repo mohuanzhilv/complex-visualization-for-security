@@ -1,0 +1,11 @@
+{
+
+    "compliance_name" : "GDPR",
+    "industry": ["general"],
+    "country": ["all", "China"],
+    "issue_time": 20 ,
+    "issue_department": [""],
+    "terms": {
+        
+    }
+}

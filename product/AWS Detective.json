@@ -1,0 +1,6 @@
+{
+    "service_provider": "AWS",
+    "Service_type": "事故响应类",
+    "use case": "调查潜在的安全问题",
+    "service name": "AWS Detective"
+}

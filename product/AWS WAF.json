@@ -1,0 +1,6 @@
+{
+    "service_provider": "AWS",
+    "Service_type": "基础设施保护类",
+    "use case": "过滤恶意web流量",
+    "service name": "AWS Web FireWall"
+}

@@ -1,0 +1,6 @@
+{
+    "service_provider": "AWS",
+    "Service_type": "检测控制类",
+    "use case": "记录和评估AWS资源的配置",
+    "service name": "AWS Config"
+}

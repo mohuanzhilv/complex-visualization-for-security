@@ -1,0 +1,47 @@
+{
+    "service_provider": "AWS",
+    "Service_type": "基础设施保护类",
+    "use case": "DDoS保护",
+    "service name": "AWS Shield",
+    "service types": {
+        "0": {
+            "service name": "Shield Standard",
+            "service details": "Shield Standard is a managed threat mitigation service that protect AWS infrastructure from infrastructure layer DDoS threats. It is always on, not configurable and by default protection all AWS customers. It is one of the primary reasons AWS is able to provide you with resilience and availability SLAs for your workloads running on AWS infrastructure."
+        },
+        "1": {
+            "service name": "Shield Advanced",
+            "service details": "Shield Advanded is a premium managed service that allows you to build a customized DDoS protection capability specifically for your application's needs. It provides a comprehensive mitigation service that is designed to protect your more critical resources for business operation"
+        }
+    },
+    "service relier": {
+        "Route 53":"Route 53 is used for the Domain Name System (DNS)",
+        "AWS WAF": "WAF is used for reducing application layer attacks.",
+        "ClourdFront": "CloudFront is used as the client facing component of your application as it highly DDoS resistant. With Cloudfront, your application is protected from infrastructure layer attacks, such as SNY floods and UDP reflection attacks, and from applcation layer attacks when associated with WAF.",
+        "Application Load Balancer": "ALB is used as the CloudFront origin and routers traffic to backend servers. ALB is able to route traffic based on its content and only accepts well-formed web requests.",
+        "Global Accelerator": "Global accelerator decreases the risk of attack by masking your origin behind two static IP addresses and creates a peering connection with your Amazone Virtual Private Cloud using private IP address."
+    },
+    "Architecture": {
+        "Resilient web applications": {
+            "architecture picture": "",
+            "prerequisite": ["Route S3", "AWS WAF", "CloudFront", "Application Load Balancer"],
+            "optional": [],
+            "limits": "",
+            "suitable for": ["web applications"]
+
+        },
+        "Web applications with static IP address": {
+            "architecture picture": "",
+            "prerequisite": ["Route S3", "Global Accelerator",  "Application Load Balancer"],
+            "optional": ["AWS WAF"],
+            "limits": "1. Instance hosting the application are launched in a private subnet. 2. use AWS AutoScaling to scale out and scale in in response to increases in load.",
+            "suitable for": ["web applications"]
+        },
+        "Resilient low-latency architectures": {
+            "architecture picture": "",
+            "prerequisite": ["Route S3", "Global Accelerator"],
+            "optional": [],
+            "limits": "1. Instance hosting the application are launched in a private subnet. ",
+            "suitable for": ["game applications"]
+        }
+    }
+}

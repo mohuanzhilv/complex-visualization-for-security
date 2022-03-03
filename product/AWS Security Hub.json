@@ -1,0 +1,6 @@
+{
+    "service_provider": "AWS",
+    "Service_type": "检测控制类",
+    "use case": "一体化的安全性与合规中心",
+    "service name": "AWS Security Hub"
+}

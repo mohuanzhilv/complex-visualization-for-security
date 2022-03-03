@@ -1,0 +1,6 @@
+{
+    "service_provider": "AWS",
+    "Service_type": "身份访问控制",
+    "use case": "分享AWS资源的服务",
+    "service name": "AWS Resourcee Access Manager"
+}

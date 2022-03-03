@@ -1,0 +1,6 @@
+{
+    "service_provider": "AWS",
+    "Service_type": "身份访问控制",
+    "use case": "单点登录（Single Sign On, SSO）服务",
+    "service name": "AWS Single Sign On"
+}
